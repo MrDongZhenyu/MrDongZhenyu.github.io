@@ -38,7 +38,7 @@ Our paper “Non-invasive laser speckle contrast imaging
 intact avian eggs at early developmental stages” is online at ***Biomedical Optics Express*** and is selected as Editor's Pick and Journal Cover. [Paper Link](https://opg.optica.org/boe/fulltext.cfm?uri=boe-15-8-4605)
 
 ### 07/03/2023
-Our paper “Single multimode fibre for in vivo light-field-encoded endoscopic imaging” is online at ***Nature Photonics***. This work is selected as [China’sTop10Advancesin Optics–FundamentalResearch Category](https://www.opticsjournal.net/CL/ZGGX?type=view&postid=PT240419000023mIoLr) and [Light10: Top 10 SociallyInfluentialEvents inChina’sOpticsField](https://news.sciencenet.cn/htmlnews/2024/1/516116.shtm) in 2023. [Paper Link](https://www.nature.com/articles/s41566-023-01240-x)
+Our paper “Single multimode fibre for in vivo light-field-encoded endoscopic imaging” is online at ***Nature Photonics***. This work is selected as [China’s Top 10 Advances in Optics – Fundamental Research Category](https://www.opticsjournal.net/CL/ZGGX?type=view&postid=PT240419000023mIoLr) and [Light10: Top 10 Socially Influential Events in China’s Optics Field](https://news.sciencenet.cn/htmlnews/2024/1/516116.shtm) in 2023. [Paper Link](https://www.nature.com/articles/s41566-023-01240-x)
 
 ### 09/04/2022
 I joined the Caltech Biophotonics Lab.
