@@ -17,4 +17,4 @@ I am interested in computational imaging techniques, especially, but not limited
 
 >**I am currently seeking postdoctoral opportunities.**
 
->**If you are interested in further details of any of my work or just want to connect, feel free to contact me!.**
+>**If you are interested in learning more about my work, exploring potential collaborations, or simply want to connect, please feel free to reach out!**
