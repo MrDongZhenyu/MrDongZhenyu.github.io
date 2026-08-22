@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -18,3 +18,19 @@ I am interested in computational imaging techniques, especially, but not limited
 >**I am currently seeking postdoctoral opportunities.**
 
 >**If you are interested in learning more about my work, exploring potential collaborations, or simply want to connect, please feel free to reach out!**
+
+
+
+## News
+
+### 01/17/2026
+Presentation on "Analytic Fourier ptychotomography for volumetric refractive index imaging" at SPIE Photonics West 2026, San Francisco.
+
+### 12/11/2025
+Our paper “Analytic Fourier ptychotomography for aberration-free and high-resolution volumetric refractive index imaging” is online at *Nature Communications*. [Paper Link](https://www.nature.com/articles/s41467-025-67460-7)
+
+### 02/28/2025
+I passed my candidacy exam. 
+
+### 06/30/2022
+My first paper "A modulated sparse random matrix for high-resolution and high-speed 3D compressive imaging through a multimode fiber" is online at *Science Bulletin* and is selected as Journal Cover. [Paper Link](https://www.sciencedirect.com/science/article/pii/S2095927322001219?via%3Dihub)
