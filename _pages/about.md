@@ -32,5 +32,9 @@ Our paper “Analytic Fourier ptychotomography for aberration-free and high-reso
 ### 02/28/2025
 I passed my candidacy exam. 
 
+### 07/03/2023
+Our paper “Single multimode fibre for in vivo light-field-encoded endoscopic imaging” is online at *Nature Photonics*. [Paper Link](https://www.nature.com/articles/s41566-023-01240-x)
+This work is selected as [China’sTop10Advancesin Optics–FundamentalResearch Category](https://www.opticsjournal.net/CL/ZGGX?type=view&postid=PT240419000023mIoLr) and [Light10: Top 10 SociallyInfluentialEvents inChina’sOpticsField](https://news.sciencenet.cn/htmlnews/2024/1/516116.shtm) in 2023. 
+
 ### 06/30/2022
 My first paper "A modulated sparse random matrix for high-resolution and high-speed 3D compressive imaging through a multimode fiber" is online at *Science Bulletin* and is selected as Journal Cover. [Paper Link](https://www.sciencedirect.com/science/article/pii/S2095927322001219?via%3Dihub)
