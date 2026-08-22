@@ -12,7 +12,7 @@ I am a fifth-year PhD student in the Department of Electrical Engineering at Cal
 I am interested in computational imaging techniques, especially, but not limited to:
 - Wavefront shaping and computational imaging through scattering medium
 - Label-free tomographic imaging of embryos and organoids
-- Fluorescence imaging of 3D organoids
+- 3D fluorescence imaging
 - MetaOptics for computational imaging
 
 >**I am currently seeking postdoctoral opportunities.**
