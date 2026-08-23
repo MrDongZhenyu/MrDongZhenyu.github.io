@@ -140,7 +140,7 @@ author_profile: true
 </style>
 
 <div id="pub-top"></div>
-
+<strong>Click titles to access papers.</strong>
 <p>
   You can also find my articles on 
   <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
