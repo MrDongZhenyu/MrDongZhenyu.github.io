@@ -322,7 +322,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: gray;">
-         We proposed RTMnet, aphysics-guided framework integrating the rotationalmemoryeffect, Radon transform, and Fourier neural operator for efficient image transmission through MMFs, with strong rotational generalization and reduced computational cost.
+         We developed RTMnet, a physics-guided cross-domain learning framework integrating the rotational memory effect, Radon transform, and Fourier neural operator for efficient image transmission through MMFs. RTMnet achieves high-fidelity reconstruction with an order-of-magnitude lower computational cost than conventional DNNs and generalizes to arbitrarily rotated images using only non-rotated training data.
       </span>
     </font>
   </div>
