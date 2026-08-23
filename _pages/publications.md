@@ -367,6 +367,51 @@ author_profile: true
   </div>
 </div>
 
+<h2 id="y2024" class="publication-year-heading">2024</h2>
+<div class="publication">
+  <div class="publication-image">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/Egg_LSCI.png" width="150" height="150">
+  </div><div class="publication-details">
+    <font size="4">
+      <a href="https://doi.org/10.1364/BOE.530366" 
+      style="text-decoration: none;">
+        <span style="color: #191717;">
+          <strong>
+            4. Non-invasive laser speckle contrast imaging (LSCI) of extra-embryonic blood vessels in intact avian eggs at early developmental stages
+          </strong>
+        </span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: #A4907C;">
+        <span style="color: #213555;"><strong>Zhenyu Dong*,</strong></span> Simon Mahler*, Carol Readhead, Xi Chen, Maya Dickson, Marianne Bronner, and Changhuei Yang
+      </span>
+    </font>
+    <br>
+    <font size="3" style="font-family: 'Font', Calibri;">
+      <a style="text-decoration: none;">
+        <span style="color: #B2533E;"> Biomedical Optics Express, 2024</span>
+        &nbsp; &nbsp;
+        <span style="color: #186F65;"><strong>Editor's Pick, Journal Cover</strong> </span>
+      </a>
+      <a href="/publications/Egg_LSCI.txt" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #B5CB99;">(BibTex)</span>
+      </a>
+      <a href="https://github.com/MrDongZhenyu/Egg-LSCI" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #D97706;">[Code Link]</span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: gray;">
+        We built an automated, incubator-integrated LSCI platform for longitudinal monitoring of embryonic heart rate, blood-flow dynamics, and vascular structures. We established its potential as a rapid, quantitative platform for screening cardiovascular drugs and assessing their effects on embryonic heart function.
+      </span>
+    </font>
+  </div>
+</div>
+
+<h2 id="y2023" class="publication-year-heading">2023</h2>
 <!-- <font size="2">
   <br>
   <span style="color: gray;">
