@@ -126,66 +126,91 @@ document.addEventListener('DOMContentLoaded', function() {
 <section class="publications-section">
 
   <div class="publication-tabs" role="tablist">
-    <button class="publication-tab active" data-tab="microscopy" role="tab" aria-controls="tab-microscopy" aria-selected="true">
+    <button class="publication-tab active" data-tab="MMF" role="tab" aria-controls="tab-MMF" aria-selected="true">
       Multimode Fiber (MMF) Imaging
     </button>
-    <button class="publication-tab" data-tab="neural" role="tab" aria-controls="tab-neural" aria-selected="false">
+    <button class="publication-tab" data-tab="Tomography" role="tab" aria-controls="tab-Tomography" aria-selected="false">
       Refractive Index (RI) Tomography
     </button>
-
-    <div class="ri-gallery">
-
-      <div class="ri-gallery-stage">
-
-        <!-- Left arrow -->
-        <button class="ri-gallery-prev" aria-label="Previous image">
-          &#10094;
-        </button>
-
-        <!-- Slide 1 -->
-        <div class="ri-gallery-slide active">
-          <img src="/images/Research/RI/AFP.png"
-               alt="Analytic Fourier ptychotomography">
-    
-          <div class="ri-gallery-caption">
-            Analytic Fourier ptychotomography, Nature Communications (2026)
-          </div>
-        </div>
-
-        <!-- Slide 2 -->
-        <div class="ri-gallery-slide">
-          <img src="/images/Research/RI/Embryo.png"
-               alt="Embryo RI tomography">
-    
-          <div class="ri-gallery-caption">
-            Label-free 3D refractive-index tomography of embryos
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="ri-gallery-slide">
-          <img src="/images/Research/RI/IDT.png"
-               alt="Intensity diffraction tomography">
-    
-          <div class="ri-gallery-caption">
-            Intensity diffraction tomography
-          </div>
-        </div>
-
-      <!-- Right arrow -->
-      <button class="ri-gallery-next" aria-label="Next image">
-        &#10095;
-      </button>
-
-    </div>
-
-  </div>
-
-
-    <button class="publication-tab" data-tab="pathology" role="tab" aria-controls="tab-pathology" aria-selected="false">
+    <button class="publication-tab" data-tab="LSCI" role="tab" aria-controls="tab-LSCI" aria-selected="false">
       Laser Speckle Contrast Imaging (LSCI) of Eggs
     </button>
   </div>
+
+  <div class="publication-panels">
+      
+      <div class="publication-panel" id="tab-Tomography" role="tabpanel" aria-labelledby="tab-Tomography">
+        <div class="publication">
+          <div class="publication-details">
+            <div class="publication-title">
+              <a href="https://www.nature.com/articles/s41467-025-67460-7">Analytic Fourier ptychotomography for aberration-free and high-resolution volumetric refractive index imaging</a>
+            </div>
+            <div class="publication-authors">
+              Zhenyu Dong*, <strong>Haowen Zhou*</strong>, Ruizhi Cao*, Oumeng Zhang, Shi Zhao, Panlang Lyu, Reinaldo E Alcalde, Changhuei Yang
+            </div>
+            <div class="publication-venue">Nature Communications, 2025</div>
+            <div class="publication-links">
+              <a href="/publications/AFP.txt">BibTex</a>
+              <a href="https://mrdongzhenyu.github.io/AFP-Web/">Project Page &amp; Code</a>
+              <a href="https://osf.io/f7tqa/">Data</a>
+            </div>
+            <div class="publication-abstract">
+              We propose Analytic Fourier Ptychotomography (AFP), a new computational microscopy technique that analytically reconstructs aberration-free, complex-valued 3D RI distributions without iterative optimization or axial scanning. AFP incorporates a new concept named finite sample thickness (FST) prior, thereby simplifying the inverse scattering problem into solving linear equations.
+            </div>
+          </div>
+          <div class="publication-image">
+            <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/images/AFP_cover.png" alt="AFP cover image" loading="lazy">
+          </div>
+        </div>
+      </div>
+  
+      <div class="ri-gallery">
+  
+        <div class="ri-gallery-stage">
+  
+          <!-- Left arrow -->
+          <button class="ri-gallery-prev" aria-label="Previous image">
+            &#10094;
+          </button>
+  
+          <!-- Slide 1 -->
+          <div class="ri-gallery-slide active">
+            <img src="/images/Research/RI/AFP.png"
+                 alt="Analytic Fourier ptychotomography">
+      
+            <div class="ri-gallery-caption">
+              Analytic Fourier ptychotomography, Nature Communications (2026)
+            </div>
+          </div>
+  
+          <!-- Slide 2 -->
+          <div class="ri-gallery-slide">
+            <img src="/images/Research/RI/Embryo.png"
+                 alt="Embryo RI tomography">
+      
+            <div class="ri-gallery-caption">
+              Label-free 3D refractive-index tomography of embryos
+            </div>
+          </div>
+  
+          <!-- Slide 3 -->
+          <div class="ri-gallery-slide">
+            <img src="/images/Research/RI/IDT.png"
+                 alt="Intensity diffraction tomography">
+      
+            <div class="ri-gallery-caption">
+              Intensity diffraction tomography
+            </div>
+          </div>
+  
+        <!-- Right arrow -->
+        <button class="ri-gallery-next" aria-label="Next image">
+          &#10095;
+        </button>
+  
+      </div>
+  
+    </div>
 
 <div class="clustermaps-widget">
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ecf4d6&w=a&t=tt&d=_uUi94cpmcNCyRUHW_7GZIypCW8NCGmk_sE5ee3tpvc&co=265073&ct=ffffff&cmo=2d9596&cmn=9ad0c2'></script> 
