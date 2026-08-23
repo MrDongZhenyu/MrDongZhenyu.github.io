@@ -502,7 +502,7 @@ author_profile: true
 
 <div class="publication">
   <div class="publication-image">
-    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/MMFCompressiveSensing.png" width="80" height="150">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/MMFCompressiveSensing.png" width="150" height="150">
   </div><div class="publication-details">
     <font size="4">
       <a href="https://doi.org/10.1016/j.scib.2022.03.017" 
