@@ -109,7 +109,42 @@ document.addEventListener('DOMContentLoaded', function() {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+a {
+  color: #EC8F5E;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #B2533E;
+  text-decoration: underline;
+}
   
+.publication-authors {
+  font-size: 0.95em;
+  color: #4a5568;
+  margin-bottom: 6px;
+}
+.publication-venue {
+  font-size: 0.9em;
+  color: #B2533E;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.publication-abstract {
+  font-size: 0.9em;
+  color: #718096;
+  line-height: 1.6;
+}
+.publication-links a {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 4px 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+}
+ 
 .publication-tabs {
   display: flex;
   flex-wrap: wrap;
