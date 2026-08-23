@@ -156,7 +156,7 @@ author_profile: true
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/sexing_eggs_paper.png" width="150" height="150">
   </div><div class="publication-details">
     <font size="4">
-      <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0323847" 
+      <a href="https://doi.org/10.1371/journal.pone.0323847" 
       style="text-decoration: none;">
         <span style="color: #191717;">
           <strong>
@@ -246,7 +246,7 @@ author_profile: true
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/AFP.png" width="150" height="150">
   </div><div class="publication-details">
     <font size="4">
-      <a href="https://www.nature.com/articles/s41467-025-67460-7" 
+      <a href="https://doi.org/10.1038/s41467-025-67460-7" 
       style="text-decoration: none;">
         <span style="color: #191717;">
           <strong>
