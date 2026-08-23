@@ -10,21 +10,36 @@ author_profile: true
   }
 
   .publication {
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    align-items: flex-start;
-    gap: 20px;
-    margin-bottom: 30px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 8px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: flex-start;
+  gap: 20px;
 
-  .publication:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
+  margin-bottom: 30px;
+  padding: 20px;
+
+  background: #ffffff;
+
+  border-radius: 12px;
+
+  /* Default left border */
+  border-left: 4px solid transparent;
+
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-left-color 0.2s ease;
+}
+
+.publication:hover {
+  transform: translateY(-2px);
+
+  border-left-color: #118fe4;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
 
   .publication-image {
     width: 150px;
