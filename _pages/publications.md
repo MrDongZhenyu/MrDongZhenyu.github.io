@@ -177,7 +177,7 @@ author_profile: true
     <br>
     <font size="3" style="font-family: 'Font', Calibri;">
       <a style="text-decoration: none;">
-        <span style="color: #B2533E;">Nature Communications</span>
+        <span style="color: #B2533E;">Nature Communications, 2025</span>
         &nbsp; &nbsp;
       </a>
       <a href="/publications/AFP.txt" style="text-decoration: none;">
