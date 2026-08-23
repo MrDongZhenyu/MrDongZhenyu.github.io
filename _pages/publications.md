@@ -303,7 +303,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: #A4907C;">
-        Ninghe Liu, Lele Wang, Zhaofan He, Haoran Zhang, <span style="color: #213555;"><strong>Zhenyu Dong*,</strong></span> Dan Li, Ping Yan, Qirong Xiao
+        Ninghe Liu, Lele Wang, Zhaofan He, Haoran Zhang, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Dan Li, Ping Yan, Qirong Xiao
       </span>
     </font>
     <br>
