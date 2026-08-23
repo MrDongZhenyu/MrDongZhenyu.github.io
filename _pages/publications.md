@@ -140,11 +140,12 @@ author_profile: true
 </style>
 
 <div id="pub-top"></div>
-<strong>Click titles to access papers.</strong>
+
 <p>
   You can also find my articles on 
   <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
 </p>
+<strong>Click titles to access papers.</strong>
 
 <!-- <h2 id="in-press" class="publication-year-heading">In Press &amp; ArXiv</h2> -->
 
