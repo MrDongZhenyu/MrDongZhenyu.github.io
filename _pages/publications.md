@@ -373,7 +373,7 @@ author_profile: true
 <h2 id="y2024" class="publication-year-heading">2024</h2>
 <div class="publication">
   <div class="publication-image">
-    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/Egg_LSCI.png" width="150" height="150">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/Egg_LSCI.gif" width="150" height="150">
   </div><div class="publication-details">
     <font size="4">
       <a href="https://doi.org/10.1364/BOE.530366" 
