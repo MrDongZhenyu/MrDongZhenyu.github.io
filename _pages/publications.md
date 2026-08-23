@@ -45,6 +45,13 @@ author_profile: true
     object-fit: contain;
   }  
 
+  .publication-image video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  }
+
   .publication-image img:hover {
     transform: scale(1.05);
   }
@@ -246,7 +253,9 @@ author_profile: true
 <!-- pub 22 -->
 <div class="publication">
   <div class="publication-image">
-    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/AFP.png" width="150" height="150">
+    <video autoplay muted loop playsinline preload="metadata">
+      <source src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/AFP.mp4" type="video/mp4">
+</video>
   </div><div class="publication-details">
     <font size="4">
       <a href="https://doi.org/10.1038/s41467-025-67460-7" 
