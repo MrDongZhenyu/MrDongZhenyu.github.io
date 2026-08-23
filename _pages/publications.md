@@ -151,6 +151,50 @@ author_profile: true
 
 <h2 id="y2026" class="publication-year-heading">2026</h2>
 
+<div class="publication">
+  <div class="publication-image">
+    <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/_publications/DAbI.png" width="150" height="150">
+  </div><div class="publication-details">
+    <font size="4">
+      <a href="https://doi.org/10.1038/s41467-026-72287-x" 
+      style="text-decoration: none;">
+        <span style="color: #191717;">
+          <strong>
+            8. Digital defocus aberration interference for automated optical microscopy
+          </strong>
+        </span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: #A4907C;">
+         Haowen Zhou*, Shi Zhao*, Yujie Fan, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Oumeng Zhang, Viviana Gradinaru, Changhuei Yang
+      </span>
+    </font>
+    <br>
+    <font size="3" style="font-family: 'Font', Calibri;">
+      <a style="text-decoration: none;">
+        <span style="color: #B2533E;">Nature Communications, 2026</span>
+        &nbsp; &nbsp;
+      </a>
+      <a href="/publications/DAbI.txt" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #B5CB99;">(BibTex)</span>
+      </a>
+      <a href="https://hwzhou2020.github.io/DAbI-Web/" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #186F65;">[Project Page]</span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: gray;">
+         We recently observed a phenomenon that the digitally summed Fourier spectrum of two images acquired from two-angle illumination exhibits interference-like fringe modulation when the sample is out-of-focus.
+         These digital fringes correlate directly with defocus through a physics-based relation. Based on this principle, we developed an automatic, efficient, and generalizable defocus detection method termed digital defocus aberration interference (DAbI).
+      </span>
+    </font>
+  </div>
+</div>
+
+
 <h2 id="y2025" class="publication-year-heading">2025</h2>
 
 <!-- pub 22 -->
