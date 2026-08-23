@@ -1,0 +1,10 @@
+@article{dong2024non,
+  title={Non-invasive laser speckle contrast imaging (LSCI) of extra-embryonic blood vessels in intact avian eggs at early developmental stages},
+  author={Dong, Zhenyu and Mahler, Simon and Readhead, Carol and Chen, Xi and Dickson, Maya and Bronner, Marianne and Yang, Changhuei},
+  journal={Biomedical Optics Express},
+  volume={15},
+  number={8},
+  pages={4605--4624},
+  year={2024},
+  publisher={Optica Publishing Group}
+}
