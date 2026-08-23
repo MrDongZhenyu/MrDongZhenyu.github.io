@@ -44,6 +44,52 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<script>
+function initializeRIGallery() {
+  const gallery = document.querySelector('.ri-gallery');
+
+  if (!gallery) return;
+
+  const slides = gallery.querySelectorAll('.ri-gallery-slide');
+  const prevButton = gallery.querySelector('.ri-gallery-prev');
+  const nextButton = gallery.querySelector('.ri-gallery-next');
+
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    if (index < 0) {
+      index = slides.length - 1;
+    }
+
+    if (index >= slides.length) {
+      index = 0;
+    }
+
+    slides.forEach(function(slide) {
+      slide.classList.remove('active');
+    });
+
+    slides[index].classList.add('active');
+    currentSlide = index;
+  }
+
+  prevButton.addEventListener('click', function() {
+    showSlide(currentSlide - 1);
+  });
+
+  nextButton.addEventListener('click', function() {
+    showSlide(currentSlide + 1);
+  });
+
+  showSlide(0);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  initializePublicationTabs();
+  initializeRIGallery();
+});
+</script>
+
 <style>
 .publication-panel {
   display: none;
@@ -86,6 +132,56 @@ document.addEventListener('DOMContentLoaded', function() {
     <button class="publication-tab" data-tab="neural" role="tab" aria-controls="tab-neural" aria-selected="false">
       Refractive Index (RI) Tomography
     </button>
+
+    <div class="ri-gallery">
+
+      <div class="ri-gallery-stage">
+
+        <!-- Left arrow -->
+        <button class="ri-gallery-prev" aria-label="Previous image">
+          &#10094;
+        </button>
+
+        <!-- Slide 1 -->
+        <div class="ri-gallery-slide active">
+          <img src="/images/Research/RI/AFP.png"
+               alt="Analytic Fourier ptychotomography">
+    
+          <div class="ri-gallery-caption">
+            Analytic Fourier ptychotomography, Nature Communications (2026)
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="ri-gallery-slide">
+          <img src="/images/Research/RI/Embryo.png"
+               alt="Embryo RI tomography">
+    
+          <div class="ri-gallery-caption">
+            Label-free 3D refractive-index tomography of embryos
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="ri-gallery-slide">
+          <img src="/images/Research/RI/IDT.png"
+               alt="Intensity diffraction tomography">
+    
+          <div class="ri-gallery-caption">
+            Intensity diffraction tomography
+          </div>
+        </div>
+
+      <!-- Right arrow -->
+      <button class="ri-gallery-next" aria-label="Next image">
+        &#10095;
+      </button>
+
+    </div>
+
+  </div>
+
+
     <button class="publication-tab" data-tab="pathology" role="tab" aria-controls="tab-pathology" aria-selected="false">
       Laser Speckle Contrast Imaging (LSCI) of Eggs
     </button>
