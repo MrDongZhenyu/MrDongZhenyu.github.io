@@ -1,0 +1,10 @@
+@article{deng2022spatially,
+  title={Spatially variant deblur and image enhancement in a single multimode fiber imaged by deep learning},
+  author={Deng, Qilin and Wen, Zhong and Dong, Zhenyu and Tang, Jianbin and Chen, Wei and Liu, Xu and Yang, Qing},
+  journal={Optics Letters},
+  volume={47},
+  number={19},
+  pages={5040--5043},
+  year={2022},
+  publisher={Optica Publishing Group}
+}
