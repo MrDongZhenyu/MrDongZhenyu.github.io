@@ -1,0 +1,10 @@
+@article{wen2023single,
+  title={Single multimode fibre for in vivo light-field-encoded endoscopic imaging},
+  author={Wen, Zhong and Dong, Zhenyu and Deng, Qilin and Pang, Chenlei and Kaminski, Clemens F and Xu, Xiaorong and Yan, Huihui and Wang, Liqiang and Liu, Songguo and Tang, Jianbin and others},
+  journal={Nature Photonics},
+  volume={17},
+  number={8},
+  pages={679--687},
+  year={2023},
+  publisher={Nature Publishing Group UK London}
+}
