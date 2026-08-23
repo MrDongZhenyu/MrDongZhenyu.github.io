@@ -24,7 +24,7 @@ main:
     url: /Research/
 
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /blogposts/
     
   - title: "CV"
     url: /files/CV_Zhenyu_simplified.pdf
