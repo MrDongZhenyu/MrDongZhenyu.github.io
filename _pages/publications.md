@@ -534,8 +534,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: gray;">
-        We built a non-invasive LSCI system for visualizing extra-embryonic blood vessels through intact avian eggs,enabling detection of vessels as small as ∼100 𝜇m in diameter. We improved temporal resolution for real-time and longitudinal monitoring of blood-flow dynamics and embryonic heart rate through intact eggshells. We further extended longitudinal vascular imaging to day 5 by developing a time-domain Fourier high-pass filtering method to suppress low-frequency artifacts from eggshell cracks and embryo body movements. We finally implemented a machine-learning framework with feature extraction to classify embryonic developmental stages from LSCI images, achieving 85% accuracy.• 
-        I proposed a compressive-sensing approach for high-speed 3D imaging through MMFs, generating multiple 3D focal spots via wavefront modulation for volumetric scanning and reconstructing the 3D volume by solving the corresponding inverse problem. We demonstrated superior volumetric imaging performance of multi-focus 3D scanning over random-speckle illumination through MMFs. We achieved an eightfold improvement in imaging speed and demonstrated 3D fluorescence imaging of complex
+        We proposed a compressive-sensing approach for high-speed 3D imaging through MMFs, generating multiple 3D focal spots via wavefront modulation for volumetric scanning and reconstructing the 3D volume by solving the corresponding inverse problem. We demonstrated superior volumetric imaging performance of multi-focus 3D scanning over random-speckle illumination through MMFs. We achieved an eightfold improvement in imaging speed and demonstrated 3D fluorescence imaging of complex
 biological samples,including lung tissue slices and microbeads.
       </span>
     </font>
