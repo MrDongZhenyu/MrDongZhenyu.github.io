@@ -1,0 +1,7 @@
+@article{zhou2026digital,
+  title={Digital defocus aberration interference for automated optical microscopy},
+  author={Zhou, Haowen and Zhao, Shi and Fan, Yujie and Dong, Zhenyu and Zhang, Oumeng and Gradinaru, Viviana and Yang, Changhuei},
+  journal={Nature Communications},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
+}
