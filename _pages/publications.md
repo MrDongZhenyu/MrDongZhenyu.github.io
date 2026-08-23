@@ -142,22 +142,10 @@ author_profile: true
 
 <div id="pub-top"></div>
 
-<strong>Click titles to access papers.</strong>
-<br>
-Note: Not all papers are publicly available. Publisher subscriptions may be needed.
-<br>
-
-<div class="publication-index">
-  <!-- <a href="#in-press">In Press / ArXiv</a> -->
-  <a href="#y2026">2026</a>
-  <a href="#y2025">2025</a>
-  <a href="#y2024">2024</a>
-  <a href="#y2023">2023</a>
-  <a href="#y2022">2022</a>
-  <a href="#y2021">2021</a>
-  <a href="#y2019">2019</a>
-  <a href="#y2018">2018</a>
-</div>
+<p>
+  You can also find my articles on 
+  <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+</p>
 
 <!-- <h2 id="in-press" class="publication-year-heading">In Press &amp; ArXiv</h2> -->
 
