@@ -187,7 +187,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: gray;">
-         We integrated LSCI with deep learning to investigate early-stage sex differentiation of chicken embryos from extraembryonic vascular patterns.
+         We integrated LSCI imaging with deep learning to investigate early-stage sex differentiation of chicken embryos from extraembryonic vascular patterns.
       </span>
     </font>
   </div>
@@ -388,7 +388,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: #A4907C;">
-        <span style="color: #213555;"><strong>Zhenyu Dong*,</strong></span> Simon Mahler*, Carol Readhead, Xi Chen, Maya Dickson, Marianne Bronner, and Changhuei Yang
+        <span style="color: #213555;"><strong>Zhenyu Dong*,</strong></span> Simon Mahler*, Carol Readhead, Xi Chen, Maya Dickson, Marianne Bronner, Changhuei Yang
       </span>
     </font>
     <br>
