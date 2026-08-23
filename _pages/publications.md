@@ -328,6 +328,45 @@ author_profile: true
   </div>
 </div>
 
+<div class="publication">
+  <div class="publication-image">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/nifedipine_paper.png" width="150" height="150">
+  </div><div class="publication-details">
+    <font size="4">
+      <a href="https://doi.org/10.1016/j.ydbio.2024.12.005" 
+      style="text-decoration: none;">
+        <span style="color: #191717;">
+          <strong>
+            5. Automated non-invasive laser speckle imaging of the chick heart rate and extraembryonic blood vessels and their response to Nifedipine and Amlodipine drugs
+          </strong>
+        </span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: #A4907C;">
+        Ninghe Liu, Lele Wang, Zhaofan He, Haoran Zhang, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Dan Li, Ping Yan, Qirong Xiao
+        Carol Readhead*, Simon Mahler*, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Yuki Sato, Changhuei Yang, Marianne E. Bronner
+      </span>
+    </font>
+    <br>
+    <font size="3" style="font-family: 'Font', Calibri;">
+      <a style="text-decoration: none;">
+        <span style="color: #B2533E;"> Developmental Biology, 2025</span>
+        &nbsp; &nbsp;
+      </a>
+      <a href="/publications/nifedipine_paper.txt" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #B5CB99;">(BibTex)</span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: gray;">
+        We built an automated, incubator-integrated LSCI platform for longitudinal monitoring of embryonic heart rate, blood-flow dynamics, and vascular structures. We established its potential as a rapid, quantitative platform for screening cardiovascular drugs and assessing their effects on embryonic heart function.
+      </span>
+    </font>
+  </div>
+</div>
 
 <!-- <font size="2">
   <br>
