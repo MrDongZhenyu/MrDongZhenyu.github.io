@@ -1,0 +1,10 @@
+@article{liu2025rotational,
+  title={Rotational Memory Effect-Inspired Radon Domain Learning Empowers Image Transmission Through Multimode Fibers},
+  author={Liu, Ninghe and Wang, Lele and He, Zhaofan and Zhang, Haoran and Dong, Zhenyu and Li, Dan and Yan, Ping and Xiao, Qirong},
+  journal={Laser \& Photonics Reviews},
+  volume={19},
+  number={24},
+  pages={e00089},
+  year={2025},
+  publisher={Wiley Online Library}
+}
