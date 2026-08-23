@@ -81,95 +81,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   <div class="publication-tabs" role="tablist">
     <button class="publication-tab active" data-tab="microscopy" role="tab" aria-controls="tab-microscopy" aria-selected="true">
-      Computational Microscopy
+      Multimode Fiber (MMF) Imaging
     </button>
     <button class="publication-tab" data-tab="neural" role="tab" aria-controls="tab-neural" aria-selected="false">
-      Neural Fields
+      Refractive Index (RI) Tomography
     </button>
     <button class="publication-tab" data-tab="pathology" role="tab" aria-controls="tab-pathology" aria-selected="false">
-      AI for Pathology
+      Laser Speckle Contrast Imaging (LSCI) of Eggs
     </button>
-  </div>
-
-  <div class="publication-panels">
-    <div class="publication-panel active" id="tab-microscopy" role="tabpanel" aria-labelledby="tab-microscopy">
-      <!-- pub 19 -->
-      <div class="publication">
-        <div class="publication-details">
-          <div class="publication-title">
-            <a href="https://doi.org/10.1038/s41467-026-72287-x">Digital defocus aberration interference for automated optical microscopy</a>
-          </div>
-          <div class="publication-authors">
-            <strong>Haowen Zhou*</strong>, Shi Zhao*, Yujie Fan, Zhenyu Dong, Oumeng Zhang, Viviana Gradinaru, Changhuei Yang
-          </div>
-          <div class="publication-venue">Nature Communications, 2026</div>
-          <div class="publication-links">
-            <a href="/publications/DAbI.txt">BibTex</a>
-            <a href="https://hwzhou2020.github.io/DAbI-Web/">Project Page &amp; Code</a>
-            <a href="https://osf.io/dvztc/">Data</a>
-          </div>
-          <div class="publication-abstract">
-            We recently discovered a phenomenon that the digitally summed Fourier spectrum of two images acquired from two-angle illumination exhibits interference-like fringe modulation when the sample is out-of-focus.
-            These digital fringes correlate directly with defocus through a physics-based relation. Based on this principle, we developed an automatic, efficient, and generalizable defocus detection method termed digital defocus aberration interference (DAbI).
-          </div>
-        </div>
-        <div class="publication-image">
-          <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/images/DAbI_cover.png" alt="DAbI cover image" loading="lazy">
-        </div>
-      </div>
-    </div> 
-    
-    <div class="publication-panel" id="tab-neural" role="tabpanel" aria-labelledby="tab-neural">
-      <!-- pub 17 -->
-      <div class="publication">
-        <div class="publication-details">
-          <div class="publication-title">
-            <a href="https://doi.org/10.1117/1.AP.7.2.026001">Single-shot volumetric fluorescence imaging with neural fields</a>
-          </div>
-          <div class="publication-authors">
-            Oumeng Zhang*, <strong>Haowen Zhou*</strong>, Brandon Y Feng, Elin M Larsson, Reinaldo E Alcalde, Siyuan Yin, Catherine Deng, Changhuei Yang
-          </div>
-          <div class="publication-venue">Advanced Photonics, 2025</div>
-          <div class="publication-links">
-            <a href="/publications/SVF.txt">BibTex</a>
-            <a href="https://hwzhou2020.github.io/SVF-Web/">Project Page &amp; Code</a>
-            <a href="https://osf.io/4a5ws/">Data</a>
-          </div>
-          <div class="publication-abstract">
-            Single-shot volumetric fluorescence (SVF) imaging captures biological processes with high temporal resolution and a large field of view, unlike traditional methods requiring multiple axial plane scans. Existing SVF methods often face limitations due to large, complex point spread functions (PSFs), affecting signal-to-noise ratio, resolution, and field of view. The paper introduces a QuadraPol PSF combined with neural fields, using a compact custom polarizer and a polarization camera to detect fluorescence and encode the 3D scene within a compact PSF without depth ambiguity.
-          </div>
-        </div>
-        <div class="publication-image">
-          <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/images/SVF_cover.jpg" alt="SVF cover image" loading="lazy">
-        </div>
-      </div>
-    </div> 
-
-    <div class="publication-panel" id="tab-pathology" role="tabpanel" aria-labelledby="tab-pathology">
-      <div class="publication">
-        <div class="publication-details">
-          <div class="publication-title">
-            <a href="https://doi.org/10.1002/path.6263">AI-guided histopathology predicts brain metastasis in lung cancer patients</a>
-          </div>
-          <div class="publication-authors">
-            <strong>Haowen Zhou*</strong>, Mark Watson*, Cory T. Bernadt, Steven (Siyu) Lin, Chieh-yu Lin, Jon H. Ritter, Alexander Wein, Simon Mahler, Sid Rawal, Ramaswamy Govindan, Changhuei Yang, Richard J. Cote
-          </div>
-          <div class="publication-venue">Journal of Pathology, 2024</div>
-          <div class="publication-links">
-            <a href="/publications/AI_NSCLC.txt">BibTex</a>
-            <a href="https://github.com/hwzhou2020/NSCLC_ResNet">Code</a>
-            <a href="https://doi.org/10.22002/dw66e-mbs82">Data</a>
-            <a href="https://www.caltech.edu/about/news/using-ai-to-predict-the-spread-of-lung-cancer/">News</a>
-          </div>
-          <div class="publication-abstract">
-            Brain metastases can occur in nearly half of patients with early and locally advanced (stage I&ndash;III) non-small cell lung cancer (NSCLC). There are no reliable histopathologic or molecular means to identify those who are likely to develop brain metastases. We sought to determine if deep learning could be applied to routine H&amp;E-stained primary tumor tissue sections from stage I&ndash;III NSCLC patients to predict the development of brain metastasis.
-          </div>
-        </div>
-        <div class="publication-image">
-          <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/images/Jpath-cover.jpg" alt="AI NSCLC cover image" loading="lazy">
-        </div>
-      </div>
-    </div>
   </div>
 
 <div class="clustermaps-widget">
