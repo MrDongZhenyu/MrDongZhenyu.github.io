@@ -193,7 +193,7 @@ author_profile: true
 
 <div class="publication">
   <div class="publication-image">
-    <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/_publications/DAbI.png" width="150" height="150">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/DAbI.png" width="150" height="150">
   </div><div class="publication-details">
     <font size="4">
       <a href="https://doi.org/10.1038/s41467-026-72287-x" 
@@ -243,7 +243,7 @@ author_profile: true
 <!-- pub 22 -->
 <div class="publication">
   <div class="publication-image">
-    <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/_publications/AFP.png" width="150" height="150">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/AFP.png" width="150" height="150">
   </div><div class="publication-details">
     <font size="4">
       <a href="https://www.nature.com/articles/s41467-025-67460-7" 
