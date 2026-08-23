@@ -147,6 +147,105 @@ author_profile: true
       bottom: 16px;
     }
   }
+
+  /* Publication filter bar */
+.publication-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
+  margin: 20px 0 32px;
+  padding: 18px 22px;
+
+  background: #ffffff;
+  border-radius: 14px;
+
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.publication-year-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.year-filter {
+  border: none;
+  padding: 9px 18px;
+
+  border-radius: 999px;
+
+  background: #eef2f6;
+  color: #4b5563;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.year-filter:hover {
+  background: #dfe7ee;
+}
+
+.year-filter.active {
+  background: #118fe4;
+  color: #ffffff;
+}
+
+.publication-search {
+  flex: 1;
+  min-width: 220px;
+}
+
+.publication-search input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 11px 16px;
+
+  border: 1px solid #d7dee7;
+  border-radius: 10px;
+
+  background: #ffffff;
+  color: #374151;
+
+  font-size: 15px;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.publication-search input:focus {
+  border-color: #118fe4;
+  box-shadow: 0 0 0 3px rgba(17, 143, 228, 0.12);
+}
+
+@media (max-width: 768px) {
+  .publication-filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .publication-year-filters {
+    width: 100%;
+  }
+
+  .year-filter {
+    flex: 1 1 auto;
+  }
+
+  .publication-search {
+    width: 100%;
+  }
+}
 </style>
 
 <div id="pub-top"></div>
@@ -157,11 +256,33 @@ author_profile: true
 </p>
 <strong>Click titles to access papers.</strong>
 
+<div class="publication-filter-bar">
+
+  <div class="publication-year-filters">
+    <button type="button" class="year-filter active" data-year="all">All</button>
+    <button type="button" class="year-filter" data-year="2026">2026</button>
+    <button type="button" class="year-filter" data-year="2025">2025</button>
+    <button type="button" class="year-filter" data-year="2024">2024</button>
+    <button type="button" class="year-filter" data-year="2023">2023</button>
+    <button type="button" class="year-filter" data-year="2022">2022</button>
+  </div>
+
+  <div class="publication-search">
+    <input
+      type="text"
+      id="publicationSearch"
+      placeholder="Search title, author, year..."
+      aria-label="Search publications">
+
+  </div>
+
+</div>
+
 <!-- <h2 id="in-press" class="publication-year-heading">In Press &amp; ArXiv</h2> -->
 
 <h2 id="y2026" class="publication-year-heading">2026</h2>
 
-<div class="publication">
+<div class="publication" data-year="2026">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/sexing_eggs_paper.png" width="150" height="150">
   </div><div class="publication-details">
@@ -201,7 +322,7 @@ author_profile: true
 </div>
 
 
-<div class="publication">
+<div class="publication" data-year="2026">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/DAbI.png" width="150" height="150">
   </div><div class="publication-details">
@@ -251,7 +372,7 @@ author_profile: true
 <h2 id="y2025" class="publication-year-heading">2025</h2>
 
 <!-- pub 22 -->
-<div class="publication">
+<div class="publication" data-year="2025">
   <div class="publication-image">
     <video autoplay muted loop playsinline preload="metadata">
       <source src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/AFP.mp4" type="video/mp4">
@@ -298,7 +419,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="publication">
+<div class="publication" data-year="2025">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/MMF-Radon.png" width="150" height="150">
   </div><div class="publication-details">
@@ -340,7 +461,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="publication">
+<div class="publication" data-year="2025">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/nifedipine_paper.png" width="150" height="150">
   </div><div class="publication-details">
@@ -380,7 +501,7 @@ author_profile: true
 </div>
 
 <h2 id="y2024" class="publication-year-heading">2024</h2>
-<div class="publication">
+<div class="publication" data-year="2024">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/Egg_LSCI.gif" width="150" height="150">
   </div><div class="publication-details">
@@ -425,7 +546,7 @@ author_profile: true
 
 <h2 id="y2023" class="publication-year-heading">2023</h2>
 
-<div class="publication">
+<div class="publication" data-year="2023">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/STABLE.png" width="150" height="150">
   </div><div class="publication-details">
@@ -468,7 +589,7 @@ author_profile: true
 
 <h2 id="y2022" class="publication-year-heading">2022</h2>
 
-<div class="publication">
+<div class="publication" data-year="2022">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/MMFDeblur.png" width="150" height="150">
   </div><div class="publication-details">
@@ -600,4 +721,92 @@ biological samples,including lung tissue slices and microbeads.
     window.addEventListener('scroll', toggleBackToTop, { passive: true });
     toggleBackToTop();
   })();
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+  const yearButtons = document.querySelectorAll('.year-filter');
+  const searchInput = document.getElementById('publicationSearch');
+  const publications = document.querySelectorAll('.publication');
+  const yearHeadings = document.querySelectorAll('.publication-year-heading');
+
+  if (!yearButtons.length || !searchInput || !publications.length) {
+    return;
+  }
+
+  let selectedYear = 'all';
+
+
+  function filterPublications() {
+
+    const searchTerm = searchInput.value.toLowerCase().trim();
+
+
+    publications.forEach(function(pub) {
+
+      const year = pub.getAttribute('data-year');
+      const text = pub.textContent.toLowerCase();
+
+      const matchesYear =
+        selectedYear === 'all' ||
+        year === selectedYear;
+
+      const matchesSearch =
+        searchTerm === '' ||
+        text.includes(searchTerm);
+
+      pub.style.display =
+        matchesYear && matchesSearch ? '' : 'none';
+
+    });
+
+
+    // Hide year headings if no publication is visible under that year
+    yearHeadings.forEach(function(heading) {
+
+      const year = heading.textContent.trim();
+
+      const visiblePublications =
+        Array.from(
+          document.querySelectorAll(
+            '.publication[data-year="' + year + '"]'
+          )
+        ).some(function(pub) {
+          return pub.style.display !== 'none';
+        });
+
+      heading.style.display =
+        visiblePublications ? '' : 'none';
+
+    });
+
+  }
+
+
+  yearButtons.forEach(function(button) {
+
+    button.addEventListener('click', function() {
+
+      yearButtons.forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+
+      button.classList.add('active');
+
+      selectedYear =
+        button.getAttribute('data-year');
+
+      filterPublications();
+
+    });
+
+  });
+
+
+  searchInput.addEventListener('input', function() {
+    filterPublications();
+  });
+
+});
 </script>
