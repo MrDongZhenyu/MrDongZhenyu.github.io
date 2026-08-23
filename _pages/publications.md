@@ -18,7 +18,6 @@ author_profile: true
     padding: 20px;
     background: #f8f9fa;
     border-radius: 8px;
-    border-left: 4px solid #EC8F5E;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
@@ -81,9 +80,9 @@ author_profile: true
 
   .publication-year-heading {
     margin: 50px 0 15px;
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: #1a365d;
-    border-bottom: 2px solid #EC8F5E;
+    border-bottom: 2px solid #000000;
     padding-bottom: 6px;
     scroll-margin-top: 90px;
   }
