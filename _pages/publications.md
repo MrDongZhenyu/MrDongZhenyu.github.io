@@ -142,7 +142,7 @@ author_profile: true
 <div id="pub-top"></div>
 
 <p>
-  You can also find my articles on 
+  You can also find my publications on 
   <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
 </p>
 <strong>Click titles to access papers.</strong>
@@ -168,7 +168,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: #A4907C;">
-         Haowen Zhou*, Shi Zhao*, Yujie Fan, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Oumeng Zhang, Viviana Gradinaru, Changhuei Yang
+         Simon Mahler*, Anika Arora*, Carol Readhead*, Siyuan Yin*, Surya Narayanan Hari, Ellie Wang, Cecilia I. Moxley, Abdullahi A. Adeboye, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Haowen Zhou, Xi Chen, Marianne Bronner, Changhuei Yang
       </span>
     </font>
     <br>
