@@ -345,7 +345,6 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: #A4907C;">
-        Ninghe Liu, Lele Wang, Zhaofan He, Haoran Zhang, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Dan Li, Ping Yan, Qirong Xiao
         Carol Readhead*, Simon Mahler*, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Yuki Sato, Changhuei Yang, Marianne E. Bronner
       </span>
     </font>
