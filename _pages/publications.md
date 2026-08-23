@@ -153,6 +153,46 @@ author_profile: true
 
 <div class="publication">
   <div class="publication-image">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/sexing_eggs_paper.png" width="150" height="150">
+  </div><div class="publication-details">
+    <font size="4">
+      <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0323847" 
+      style="text-decoration: none;">
+        <span style="color: #191717;">
+          <strong>
+            9. Detection of non-invasive sexing of early chick embryos in intact eggs using laser speckle contrast imaging and deep neural networks
+          </strong>
+        </span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: #A4907C;">
+         Haowen Zhou*, Shi Zhao*, Yujie Fan, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Oumeng Zhang, Viviana Gradinaru, Changhuei Yang
+      </span>
+    </font>
+    <br>
+    <font size="3" style="font-family: 'Font', Calibri;">
+      <a style="text-decoration: none;">
+        <span style="color: #B2533E;">Plos One, 2026</span>
+        &nbsp; &nbsp;
+      </a>
+      <a href="/publications/sexing_eggs_paper.txt" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #B5CB99;">(BibTex)</span>
+      </a>  
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: gray;">
+         We integrated LSCI with deep learning to investigate early-stage sex differentiation of chicken embryos from extraembryonic vascular patterns.
+      </span>
+    </font>
+  </div>
+</div>
+
+
+<div class="publication">
+  <div class="publication-image">
     <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/_publications/DAbI.png" width="150" height="150">
   </div><div class="publication-details">
     <font size="4">
