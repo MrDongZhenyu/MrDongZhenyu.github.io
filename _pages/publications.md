@@ -630,7 +630,7 @@ author_profile: true
   </div>
 </div>
 
-<div class="publication">
+<div class="publication" data-year="2022">
   <div class="publication-image">
     <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/MMFCompressiveSensing.png" width="150" height="150">
   </div><div class="publication-details">
@@ -723,8 +723,9 @@ biological samples,including lung tissue slices and microbeads.
   })();
 </script>
 
+
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function() {
 
   const yearButtons = document.querySelectorAll('.year-filter');
   const searchInput = document.getElementById('publicationSearch');
@@ -732,6 +733,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const yearHeadings = document.querySelectorAll('.publication-year-heading');
 
   if (!yearButtons.length || !searchInput || !publications.length) {
+    console.log('Publication filter initialization failed.');
     return;
   }
 
@@ -741,7 +743,6 @@ document.addEventListener('DOMContentLoaded', function() {
   function filterPublications() {
 
     const searchTerm = searchInput.value.toLowerCase().trim();
-
 
     publications.forEach(function(pub) {
 
@@ -756,28 +757,35 @@ document.addEventListener('DOMContentLoaded', function() {
         searchTerm === '' ||
         text.includes(searchTerm);
 
-      pub.style.display =
-        matchesYear && matchesSearch ? '' : 'none';
+      if (matchesYear && matchesSearch) {
+        pub.style.display = 'grid';
+      } else {
+        pub.style.display = 'none';
+      }
 
     });
 
 
-    // Hide year headings if no publication is visible under that year
+    /* Show / hide year headings */
     yearHeadings.forEach(function(heading) {
 
-      const year = heading.textContent.trim();
+      const year = heading.id.replace('y', '');
 
-      const visiblePublications =
-        Array.from(
-          document.querySelectorAll(
-            '.publication[data-year="' + year + '"]'
-          )
-        ).some(function(pub) {
-          return pub.style.display !== 'none';
-        });
+      const pubsOfYear =
+        document.querySelectorAll(
+          '.publication[data-year="' + year + '"]'
+        );
+
+      let hasVisiblePublication = false;
+
+      pubsOfYear.forEach(function(pub) {
+        if (pub.style.display !== 'none') {
+          hasVisiblePublication = true;
+        }
+      });
 
       heading.style.display =
-        visiblePublications ? '' : 'none';
+        hasVisiblePublication ? '' : 'none';
 
     });
 
@@ -794,8 +802,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       button.classList.add('active');
 
-      selectedYear =
-        button.getAttribute('data-year');
+      selectedYear = button.getAttribute('data-year');
 
       filterPublications();
 
@@ -808,5 +815,9 @@ document.addEventListener('DOMContentLoaded', function() {
     filterPublications();
   });
 
-});
+
+  /* Initialize */
+  filterPublications();
+
+})();
 </script>
