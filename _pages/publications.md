@@ -187,7 +187,7 @@ author_profile: true
         &nbsp; &nbsp;  <span style="color: #186F65;">[Project Page]</span>
       </a>
       <a href="https://github.com/MrDongZhenyu/AFP" style="text-decoration: none;">
-        &nbsp; &nbsp;  <span style="color: #FCE09B;">[Code Link]</span>
+        &nbsp; &nbsp;  <span style="color: #D97706;">[Code Link]</span>
       </a>
     </font>
     <br>
