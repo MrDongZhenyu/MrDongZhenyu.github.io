@@ -32,15 +32,18 @@ author_profile: true
     overflow: hidden;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .publication-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    loading: lazy;
-  }
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }  
 
   .publication-image img:hover {
     transform: scale(1.05);
