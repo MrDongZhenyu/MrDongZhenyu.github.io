@@ -280,7 +280,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: gray;">
-         We propose Analytic Fourier Ptychotomography (AFP), a computational microscopy technique that analytically reconstructs aberration-free, complex-valued 3D RI distributions without iterative optimization or axial scanning. 
+         We propose Analytic Fourier Ptychotomography (AFP), a computational microscopy technique that analytically reconstructs aberration-free, complex-valued 3D RI distributions without iterative optimization or axial scanning. We derived an analytic darkfield spectrum recovery and extension scheme to synthesize high-spatial-frequency information beyond the objective NA, achieving two-fold resolution enhancement in both lateral and axial dimensions.
       </span>
     </font>
   </div>
