@@ -448,13 +448,54 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: gray;">
-        We developed STABLE, a bend-resistant 3D imaging method that enables MMF imaging under practical fiber deformations. We proposed a single-DMD scheme for simultaneous amplitude, phase, and polarization modulation of the fiber incident wavefront, enabling full-vector transmission-matrix (TM) measurement of long and bent MMFs and precise wavefrontcontrolatthe fiberoutput. We implemented reflective guide stars as closed-loop feedback to identify the optimal fiber TM from a compact pre-calibrated TM library, enabling efficient compensation of bending-induced TMv ariations and stable imaging under fiberdeformation. We demonstrated high-resolution in vivo MMF endoscopic imaging of thegastrointestinal tract in living mice.
+        We developed STABLE, a bend-resistant 3D imaging method that enables MMF imaging under practical fiber deformations. We proposed a single-DMD scheme for simultaneous amplitude, phase, and polarization modulation of the fiber incident wavefront, enabling full-vector transmission-matrix (TM) measurement of long and bent MMFs and precise wavefront control at the fiber output. We implemented reflective guide stars as closed-loop feedback to identify the optimal fiber TM from a compact pre-calibrated TM library, enabling efficient compensation of bending-induced TM variations and stable imaging under fiber deformation. We demonstrated high-resolution in-vivo MMF endoscopic imaging of the gastrointestinal tract in living mice.
       </span>
     </font>
   </div>
 </div>
 
+<h2 id="y2022" class="publication-year-heading">2022</h2>
 
+<div class="publication">
+  <div class="publication-image">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/MMFDeblur.png" width="150" height="150">
+  </div><div class="publication-details">
+    <font size="4">
+      <a href="https://doi.org/10.1364/OL.469034" 
+      style="text-decoration: none;">
+        <span style="color: #191717;">
+          <strong>
+            2. Spatially variant deblur and image enhancement in a single multimode fiber imaged by deep learning
+          </strong>
+        </span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: #A4907C;">
+        Qilin Deng, Zhong Wen, <span style="color: #213555;"><strong>Zhenyu Dong,</strong></span> Jianbin Tang, Wei Chen, Xu Liu, Qing Yang
+      </span>
+    </font>
+    <br>
+    <font size="3" style="font-family: 'Font', Calibri;">
+      <a style="text-decoration: none;">
+        <span style="color: #B2533E;"> Optics Letters, 2022</span>
+      </a>
+      <a href="/publications/MMFDeblur.txt" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #B5CB99;">(BibTex)</span>
+      </a>
+      <a href="https://github.com/Kilin617/Space-variant-Deblur-and-Dnoise-in-MMF" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #D97706;">[Code Link]</span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: gray;">
+       We implemented a CNN-based framework to deblur and denoise MMF endoscopic images degraded by spatially varying PSFs, achieving 5-ms reconstruction and up to three orders of magnitude speed up over iterative methods.     
+      </span>
+    </font>
+  </div>
+</div>
 
 <!-- <font size="2">
   <br>
