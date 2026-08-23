@@ -1,0 +1,9 @@
+@article{dong2022modulated,
+  title={A modulated sparse random matrix for high-resolution and high-speed 3D compressive imaging through a multimode fiber},
+  author={Dong, Zhenyu and Wen, Zhong and Pang, Chenlei and Wang, Liqiang and Wu, Lan and Liu, Xu and Yang, Qing},
+  journal={Sci. Bull.},
+  volume={67},
+  number={12},
+  pages={1224--1228},
+  year={2022}
+}
