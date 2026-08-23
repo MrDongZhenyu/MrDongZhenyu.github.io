@@ -1,0 +1,9 @@
+@article{readhead2025automated,
+  title={Automated non-invasive laser speckle imaging of the chick heart rate and extraembryonic blood vessels and their response to Nifedipine and Amlodipine drugs},
+  author={Readhead, Carol and Mahler, Simon and Dong, Zhenyu and Sato, Yuki and Yang, Changhuei and Bronner, Marianne E},
+  journal={Developmental biology},
+  volume={519},
+  pages={46--54},
+  year={2025},
+  publisher={Elsevier}
+}
