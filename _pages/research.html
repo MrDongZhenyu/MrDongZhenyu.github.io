@@ -97,6 +97,19 @@ document.addEventListener('DOMContentLoaded', function() {
   display: block;
 }
 
+.publication {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.publication:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+  
 .publication-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -253,13 +266,8 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="publication-panels">
       
       <div class="publication-panel" id="tab-Tomography" role="tabpanel" aria-labelledby="tab-Tomography">
-        This is the main project of my PhD. I am working on label-free refractive index tomography of thick 3D specimens such as mouse oocytes, mouse/human preimplantation embryos, mouse brain slides, plant roots, pathology slides, algae etc.
-        I developed computational imaging techniques to address optical aberrations, improve 3D resolution, and mitigate multiple-scattering effects, thereby enhancing both data acquisition efficiency and reconstruction quality.
-        I am currently collaborating with a start-up company to develop a device called LANTERN, which aims to provide high-quality, label-free imaging of human embryos in in vitro fertilization (IVF) clinics. We hope this new imaging technology can provide valuable insights into early embryonic development and assist embryologists in assessing embryo health and developmental potential.
-        Please find my publications and results below:
-
         <p>
-          This is the main project of my PhD research. I focus on label-free refractive index (RI) tomography of thick 3D specimens.
+          This is the main project of my PhD research. I focus on label-free refractive index (RI) tomography of thick 3D specimens. RI tomography enables quantitative 3D visualization of biological structures based on their intrinsic optical properties, without the need for fluorescent labeling. In particular, I develop <strong>non-interferometric RI tomography</strong> techniques that rely on intensity-only measurements, providing a simple, robust, and phase-stable approach well suited for long-term imaging of living biological samples.
         </p>
 
         <ul>
@@ -306,7 +314,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="publication">
           <div class="publication-details">
             <div class="publication-title">
-              <a href="https://doi.org/10.1038/s41467-025-67460-7">2. Time-lapse refractive index tomography of mammalian oocyte maturation and preimplantation embryo development. (Manuscript in preparation)</a>
+              2. Time-lapse refractive index tomography of mammalian oocyte maturation and preimplantation embryo development. (Manuscript in preparation)</a>
             </div>
           </div>
         </div>
@@ -373,6 +381,17 @@ document.addEventListener('DOMContentLoaded', function() {
             
               <div class="ri-gallery-caption">
                 Time-lapse imaging of mouse embryo mitosis process from Zygote to Two-cell stage <br>
+                <small>Unpublished data. Reproduction, redistribution, or reuse without permission is prohibited.</small>
+              </div>
+            </div>
+
+            <div class="ri-gallery-slide">
+              <video autoplay muted loop playsinline oncontextmenu="return false;">     
+                <source src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_research/TimeLapse_Mitosis.mp4" type="video/mp4">
+              </video>
+            
+              <div class="ri-gallery-caption">
+                Mouse brain  <br>
                 <small>Unpublished data. Reproduction, redistribution, or reuse without permission is prohibited.</small>
               </div>
             </div>
