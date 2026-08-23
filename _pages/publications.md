@@ -286,6 +286,48 @@ author_profile: true
   </div>
 </div>
 
+<div class="publication">
+  <div class="publication-image">
+    <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_publications/MMF-Radon.png" width="150" height="150">
+  </div><div class="publication-details">
+    <font size="4">
+      <a href="https://doi.org/10.1002/lpor.202500089" 
+      style="text-decoration: none;">
+        <span style="color: #191717;">
+          <strong>
+            6. Rotational Memory Effect-Inspired Radon Domain Learning Empowers Image Transmission Through Multimode Fibers
+          </strong>
+        </span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: #A4907C;">
+        Ninghe Liu, Lele Wang, Zhaofan He, Haoran Zhang, <span style="color: #213555;"><strong>Zhenyu Dong*,</strong></span> Dan Li, Ping Yan, Qirong Xiao
+      </span>
+    </font>
+    <br>
+    <font size="3" style="font-family: 'Font', Calibri;">
+      <a style="text-decoration: none;">
+        <span style="color: #B2533E;"> Laser & Photonics Reviews, 2025</span>
+        &nbsp; &nbsp;
+      </a>
+      <a href="/publications/MMF-Radon.txt" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #B5CB99;">(BibTex)</span>
+      </a>
+      <a href="https://github.com/NeoLiu02/Fiber-Radon" style="text-decoration: none;">
+        &nbsp; &nbsp;  <span style="color: #D97706;">[Code Link]</span>
+      </a>
+    </font>
+    <br>
+    <font size="3">
+      <span style="color: gray;">
+         We proposed RTMnet, aphysics-guided framework integrating the rotationalmemoryeffect, Radon transform, and Fourier neural operator for efficient image transmission through MMFs, with strong rotational generalization and reduced computational cost.
+      </span>
+    </font>
+  </div>
+</div>
+
 
 <!-- <font size="2">
   <br>
