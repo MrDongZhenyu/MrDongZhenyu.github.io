@@ -121,6 +121,122 @@ document.addEventListener('DOMContentLoaded', function() {
   background: #EC8F5E;
   color: #fff;
 }
+
+.ri-gallery {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto 50px;
+}
+
+.ri-gallery-stage {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ri-gallery-slide {
+  display: none;
+  width: 100%;
+  text-align: center;
+
+  animation: galleryFade 0.3s ease;
+}
+
+.ri-gallery-slide.active {
+  display: block;
+}
+
+.ri-gallery-slide img {
+  display: block;
+
+  width: auto;
+  max-width: calc(100% - 120px);
+  max-height: 480px;
+
+  margin: 0 auto;
+
+  object-fit: contain;
+}
+
+
+/* Caption */
+
+.ri-gallery-caption {
+  display: inline-block;
+
+  margin-top: 18px;
+  padding: 9px 16px;
+
+  background: #555;
+  color: white;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  border-radius: 2px;
+}
+
+
+/* Left / Right arrows */
+
+.ri-gallery-prev,
+.ri-gallery-next {
+  position: absolute;
+
+  top: 45%;
+  transform: translateY(-50%);
+
+  border: none;
+  background: transparent;
+
+  color: #777;
+
+  font-size: 45px;
+  font-weight: 300;
+
+  cursor: pointer;
+
+  z-index: 10;
+
+  padding: 10px;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.ri-gallery-prev {
+  left: 5px;
+}
+
+.ri-gallery-next {
+  right: 5px;
+}
+
+.ri-gallery-prev:hover,
+.ri-gallery-next:hover {
+  color: #222;
+
+  transform:
+    translateY(-50%)
+    scale(1.1);
+}
+
+
+@keyframes galleryFade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 </style>
 
 <section class="publications-section">
