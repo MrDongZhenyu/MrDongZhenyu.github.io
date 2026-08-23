@@ -5,6 +5,7 @@ permalink: /Research/
 author_profile: true
 ---
 
+<script>
 function initializePublicationTabs() {
   var tabs = document.querySelectorAll('.publication-tab');
   var panels = document.querySelectorAll('.publication-panel');
@@ -41,7 +42,9 @@ function initializePublicationTabs() {
 document.addEventListener('DOMContentLoaded', function() {
   initializePublicationTabs();
 });
+</script>
 
+<style>
 .publication-panel {
   display: none;
   animation: fadeIn 0.3s ease;
@@ -72,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
   background: #EC8F5E;
   color: #fff;
 }
-
+</style>
 
 <section class="publications-section">
 
@@ -114,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/images/DAbI_cover.png" alt="DAbI cover image" loading="lazy">
         </div>
       </div>
-
+    </div> 
     
     <div class="publication-panel" id="tab-neural" role="tabpanel" aria-labelledby="tab-neural">
       <!-- pub 17 -->
@@ -140,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <img src="https://raw.githubusercontent.com/hwzhou2020/hwzhou2020.github.io/master/images/SVF_cover.jpg" alt="SVF cover image" loading="lazy">
         </div>
       </div>
+    </div> 
 
     <div class="publication-panel" id="tab-pathology" role="tabpanel" aria-labelledby="tab-pathology">
       <div class="publication">
