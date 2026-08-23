@@ -163,7 +163,7 @@ author_profile: true
       style="text-decoration: none;">
         <span style="color: #191717;">
           <strong>
-            22. Analytic Fourier ptychotomography for aberration-free and high-resolution volumetric refractive index imaging
+            7. Analytic Fourier ptychotomography for aberration-free and high-resolution volumetric refractive index imaging
           </strong>
         </span>
       </a>
