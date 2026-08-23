@@ -393,7 +393,7 @@ author_profile: true
       <a style="text-decoration: none;">
         <span style="color: #B2533E;"> Biomedical Optics Express, 2024</span>
         &nbsp; &nbsp;
-        <span style="color: #186F65;"><strong>Editor's Pick, Journal Cover</strong> </span>
+        <span style="color: #186F65;"><strong>Editor's Pick & Journal Cover</strong> </span>
       </a>
       <a href="/publications/Egg_LSCI.txt" style="text-decoration: none;">
         &nbsp; &nbsp;  <span style="color: #B5CB99;">(BibTex)</span>
@@ -405,7 +405,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: gray;">
-        We built an automated, incubator-integrated LSCI platform for longitudinal monitoring of embryonic heart rate, blood-flow dynamics, and vascular structures. We established its potential as a rapid, quantitative platform for screening cardiovascular drugs and assessing their effects on embryonic heart function.
+        We built a non-invasive LSCI system for visualizing extra-embryonic blood vessels through intact avian eggs,enabling detection of vessels as small as ∼100 𝜇m in diameter. We improved temporal resolution for real-time and longitudinal monitoring of blood-flow dynamics and embryonic heart rate through intact eggshells. We further extended longitudinal vascular imaging to day 5 by developing a time-domain Fourier high-pass filtering method to suppress low-frequency artifacts from eggshell cracks and embryo body movements. We finally implemented a machine-learning framework with feature extraction to classify embryonic developmental stages from LSCI images, achieving 85% accuracy.
       </span>
     </font>
   </div>
