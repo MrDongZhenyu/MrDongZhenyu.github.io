@@ -170,7 +170,7 @@ author_profile: true
     <br>
     <font size="3">
       <span style="color: #A4907C;">
-        Zhenyu Dong*, <span style="color: #213555;"><strong>Haowen Zhou*,</strong></span> Ruizhi Cao*, Oumeng Zhang, Shi Zhao, Panlang Lyu, Reinaldo E Alcalde, Changhuei Yang
+        <span style="color: #213555;"><strong>Zhenyu Dong*,</strong></span>  Haowen Zhou*, Ruizhi Cao*, Oumeng Zhang, Shi Zhao, Panlang Lyu, Reinaldo E Alcalde, Changhuei Yang
       </span>
     </font>
     <br>
