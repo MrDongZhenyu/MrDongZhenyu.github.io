@@ -81,7 +81,7 @@ author_profile: true
     bottom: 24px;
     display: inline-flex;
     align-items: center;
-    background: #EC8F5E;
+    background: #2f98df;
     color: #fff;
     padding: 10px 16px;
     border-radius: 999px;
