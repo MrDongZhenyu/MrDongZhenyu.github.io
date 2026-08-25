@@ -263,8 +263,6 @@ author_profile: true
 }
 </style>
 
-<div id="pub-top"></div>
-
 <p>
   You can also find my publications on 
   <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
@@ -715,7 +713,7 @@ biological samples,including lung tissue slices and microbeads.
     if (!backToTop) {
       backToTop = document.createElement('a');
       backToTop.id = targetId;
-      backToTop.href = '#pub-top';
+      backToTop.href = '#';
       backToTop.className = 'back-to-top';
       backToTop.textContent = '↑ Back to Top';
       document.body.appendChild(backToTop);
