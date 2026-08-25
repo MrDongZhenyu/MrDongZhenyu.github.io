@@ -172,8 +172,8 @@ a:hover {
 
 .publication {
   display: flex;
-  align-items: center;
-  gap: 24px;
+  align-items: flex-start;
+  gap: 30px;
 }
 
 .publication-details {
@@ -182,18 +182,20 @@ a:hover {
 }
 
 .publication-gif {
-  flex: 0 0 260px;
+  flex: 0 0 320px;
 }
 
 .publication-gif img {
   display: block;
-  width: 260px;
+  width: 340px;
   height: auto;
-  max-height: 170px;
+  max-height: 340px;
 
   object-fit: contain;
 
   border-radius: 8px;
+
+  margin-left: auto;
 }
 
 @media (max-width: 768px) {
