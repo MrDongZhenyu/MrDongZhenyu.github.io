@@ -169,7 +169,51 @@ a:hover {
   background: #e2e8f0;
   border-radius: 4px;
 }
- 
+
+.publication {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.publication-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.publication-gif {
+  flex: 0 0 220px;
+}
+
+.publication-gif img {
+  display: block;
+  width: 220px;
+  height: auto;
+  max-height: 170px;
+
+  object-fit: contain;
+
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .publication {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .publication-gif {
+    flex: none;
+    width: 100%;
+  }
+
+  .publication-gif img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
 .publication-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -490,21 +534,39 @@ a:hover {
         <p>
           <strong>Selected publication as follows:</strong>
         </p>
+      
         <div class="publication">
+        
           <div class="publication-details">
             <div class="publication-title">
-              <a href="https://doi.org/10.1364/BOE.530366"> Non-invasive laser speckle contrast imaging (LSCI) of extra-embryonic blood vessels in intact avian eggs at early developmental stages</a>
+              <a href="https://doi.org/10.1364/BOE.530366">
+                Non-invasive laser speckle contrast imaging (LSCI) of extra-embryonic blood vessels in intact avian eggs at early developmental stages
+              </a>
             </div>
+        
             <div class="publication-authors">
               <strong>Zhenyu Dong*</strong>, Simon Mahler*, Carol Readhead, Xi Chen, Maya Dickson, Marianne Bronner, Changhuei Yang
             </div>
-            <div class="publication-venue">Biomedical Optics Express, 2024</div>
+        
+            <div class="publication-venue">
+              Biomedical Optics Express, 2024
+            </div>
+        
             <div class="publication-links">
               <a href="/publications/Egg_LSCI.txt">BibTex</a>
-              <a href="https://github.com/MrDongZhenyu/Egg-LSCI">Project Page &amp; Code</a>
+              <a href="https://github.com/MrDongZhenyu/Egg-LSCI">
+                Project Page &amp; Code
+              </a>
             </div>
           </div>
+        
+          <!-- GIF on the right -->
+          <div class="publication-gif">
+            <img src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_research/BOE_cover.gif" alt="LSCI blood flow imaging">
+          </div>
+        
         </div>
+
     </div>
       
     <div class="publication-panel" id="tab-Systems" role="tabpanel" aria-labelledby="tab-Systems">
