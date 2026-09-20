@@ -17,8 +17,7 @@ I am interested in computational imaging techniques, especially, but not limited
 - Computational imaging using AI algorithms
 - AI for Optics
 
->**I am currently seeking postdoctoral opportunities.**
-> <span style="color: #118fe4;"><strong><em>I am currently seeking postdoctoral opportunities.</em></strong></span>
+> <span style="color: #0000FF;"><strong><em>I am currently seeking postdoctoral opportunities.</em></strong></span>
 
 >**If you are interested in learning more about my work, exploring potential collaborations, or simply want to connect, please feel free to reach out!**
 
