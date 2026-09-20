@@ -573,12 +573,29 @@ a:hover {
         <ul>
           <li>
             <strong>Full-vector modulation (FVM):</strong>
-            
+              Strong mode and polarization coupling occurs in long and bent MMFs. Therefore, full-vector modulation is crucial for effectively controlling light propagation through the fiber. 
+              We developed a method that uses a single binary DMD to simultaneously modulate the amplitude, phase, and polarization of the optical field at the MMF input facet.
           </li>
 
           <li>
             <strong>Reflection beacon for fast TM correction</strong>
-            
+            <p>
+            The transmission matrix (TM) of a MMF depends strongly on its shape. Once the fiber bends or moves, the original calibration is no longer valid. 
+            For practical endoscopic imaging, we therefore need an efficient way to identify the current TM using measurements from only the proximal side, without accessing or modifying the distal facet.
+            </p>
+            <p>  
+            Our STABLE method uses the Fresnel reflection from the distal fiber facet as an intrinsic guide signal. 
+            During pre-calibration, we measure the single-pass TM and the corresponding round-trip reflection matrix (RM) for several representative fiber configurations, creating a library of paired TMs and RMs. 
+            During operation, an RM-derived wavefront propagates through the fiber, undergoes Fresnel reflection at the distal facet, and travels back through the fiber. 
+            The returned field is then mapped into the spatial-frequency domain at the proximal side. When the tested RM matches the current fiber state, the reflected light is concentrated into a sharp frequency-domain focus, which serves as the reflection beacon. 
+            We identify the RM that produces the highest beacon intensity and select its paired TM for imaging.
+            </p>
+            <p>
+            In this way, STABLE converts high-dimensional optical-field tracking into simple single-pixel beacon-intensity tracking. 
+            It requires neither distal access nor an engineered reflector, while improving tracking speed and sensitivity. 
+            Moreover, the calibration library can remain compact because MMFs exhibit memory effects and translational and rotational degeneracies: different fiber configurations can produce very similar TMs. 
+            In our experiments, approximately 20 TM–RM pairs were sufficient to cover the tested fiber states.
+            </p>
           </li>
 
           <li>
