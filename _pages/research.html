@@ -415,6 +415,18 @@ a:hover {
 .story-figure + p {
   margin-top: 8px;
 }
+
+.story-heading {
+  font-size: 1.2em;
+  margin-bottom: 16px;
+}
+
+.story-subheading {
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  color: #333;
+}
   
 </style>
 
@@ -484,9 +496,13 @@ a:hover {
           </div>
         </div>
 
-       <p>
-          <strong>The long story starts here:</strong>
-       </p>
+      <p class="story-heading">
+        <strong>The long story starts here:</strong>
+      </p>
+
+      <p class="story-subheading">
+        <strong>1. Introducation to miniaturized endoscopes</strong>
+      </p>
         
        <p>
           Endoscopy gives us optical access to regions that conventional microscopes cannot reach. But in many applications, the size of the imaging probe itself becomes the limiting factor. 
@@ -513,6 +529,30 @@ a:hover {
           The size constraint becomes even more critical in neuroscience. Conventional <strong>microscope objectives</strong> can provide high-resolution imaging near the brain surface, but they are bulky and have a limited working distance. More importantly, brain tissue strongly scatters light, preventing an external objective from directly accessing deep brain regions with high spatial resolution.
           To overcome this depth limitation, <strong>GRIN-lens microendoscopes</strong>are inserted directly into the brain to relay images from deep structures back to the external microscope. This approach has enabled remarkable cellular-resolution imaging in freely behaving animals. However, GRIN lenses are typically around 0.5 to 1 millimeter in diameter, and inserting a probe of this size still displaces a substantial amount of brain tissue. It may also damage blood vessels, trigger inflammation, and disturb the neural circuits being observed.      
           This motivates an interesting question: can we preserve high spatial information capacity while shrinking the probe by another order of magnitude? A <strong>multimode fiber</strong> offers exactly this possibility, potentially providing deep-brain optical access with substantially reduced tissue damage. Therefore, <strong style="color: red;"> miniaturized probes are the future of endoscopic imaging</strong>.
+        </p>
+
+        <p class="story-subheading">
+        <strong>2. Fiber imaging</strong>
+        </p>
+        <p>
+          Conventional endoscopy often requires a tissue biopsy to be removed and sent to a laboratory for pathological analysis. This process takes time, delays diagnosis, and may require the patient to undergo an additional endoscopic procedure. Fiber imaging enables in vivo optical biopsy by providing high-resolution cellular and subcellular images directly inside the body, potentially supporting immediate diagnosis and more accurate early cancer detection.
+          There are two main approaches to fiber-based imaging: fiber bundles and multimode fibers (MMF). Fiber bundles directly transmit images through thousands of individual cores and are relatively robust to bending. However, they suffer from honeycomb artifacts, fiber-core spacing limits their spatial resolution, and their short, fixed working distance restricts the accessible imaging depth.
+          In contrast, multimode fibers enable lensless, minimally invasive imaging through an ultrathin probe approximately 100 μm in diameter. Their large mode density supports high spatial resolution, while wavefront shaping enables 3D imaging without mechanical scanning. However, their performance is highly sensitive to real-world fiber movement and deformation.
+        </p>
+
+        <figure class="story-figure">
+        <img
+          src="https://raw.githubusercontent.com/MrDongZhenyu/mrdongzhenyu.github.io/master/_research/Fiber Imaging.png"
+          alt="Comparison between fiber bundles and MMF"
+          loading="lazy"
+        >
+        <figcaption>
+          Comparison between fiber bundles and MMF for fiber imaging.
+        </figcaption>
+       </figure>
+
+        <p class="story-subheading">
+        <strong>3. STABLE</strong>
         </p>
         
         
