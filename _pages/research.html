@@ -381,26 +381,34 @@ a:hover {
     pointer-events: auto;
   }
 
-  .story-figure {
-  width: 100%;
+.story-figure {
+  width: 82%;
+  max-width: 760px;
   margin: 20px auto 32px;
-  text-align: center;
 }
 
 .story-figure img {
   display: block;
   width: 100%;
-  max-width: 850px;
   height: auto;
   margin: 0 auto;
   border-radius: 10px;
 }
 
 .story-figure figcaption {
+  display: block;
+  width: 100%;
   margin-top: 10px;
+  text-align: center;
   color: #718096;
   font-size: 0.9em;
   line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .story-figure {
+    width: 100%;
+  }
 }
   
 </style>
