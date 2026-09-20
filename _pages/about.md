@@ -14,8 +14,11 @@ I am interested in computational imaging techniques, especially, but not limited
 - Label-free tomographic imaging of embryos and organoids
 - 3D fluorescence imaging
 - MetaOptics for computational imaging
+- Computational imaging using AI algorithms
+- AI for Optics
 
 >**I am currently seeking postdoctoral opportunities.**
+> <span style="color: #118fe4;"><strong><em>I am currently seeking postdoctoral opportunities.</em></strong></span>
 
 >**If you are interested in learning more about my work, exploring potential collaborations, or simply want to connect, please feel free to reach out!**
 
