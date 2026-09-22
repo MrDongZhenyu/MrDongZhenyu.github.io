@@ -785,6 +785,23 @@ a:hover {
           We designed a more efficient 3D scanning basis consisting of multiple focal spots distributed throughout the imaging volume, and developed a computational reconstruction algorithm to solve the corresponding 3D inverse problem.
           There are three key contributions of this work:
         </p>
+
+        <ul>
+          <li>
+            We demonstrated that a focal-spot basis outperforms a speckle basis due to its improved orthogonality. 
+            We further found that using multiple focal spots in each illumination pattern leads to better reconstruction performance.
+          </li>
+          <li>
+            We developed a block-wise scanning scheme with adaptive parameter adjustment for each block, enabling parallel reconstruction and efficient allocation of sampling measurements across different regions. 
+            Experimentally, we demonstrated an eight-fold improvement in acquisition speed on lung tissue sections and fluorescent bead samples.
+          </li>
+          <li>
+            We designed a multiple-focal-spot sampling basis directly in 3D, rather than relying on conventional layer-by-layer scanning. By solving the corresponding 3D inverse problem, this approach enables computational 3D deconvolution and suppression of out-of-focus signals.
+
+            We achieved 3D computational imaging over a 100 × 100 × 200 μm³ volume with an acquisition time of only 1.7 s, representing a nine-fold improvement in imaging speed compared with conventional point-by-point scanning.
+            
+          </li>
+        </ul>
       </div>
       
       <div class="publication-panel" id="tab-Tomography" role="tabpanel" aria-labelledby="tab-Tomography">
